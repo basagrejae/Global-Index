@@ -135,9 +135,9 @@
 
 
     // Control structures in PHP 
-    $bool = true;
-    $a = "1";
-    $b = 4;
+    //$bool = true;
+    //$a = "1";
+    //$b = 4;
 
     // This is a match statement
     // $result = match ($a) { // This is a match expression
