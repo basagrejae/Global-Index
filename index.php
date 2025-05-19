@@ -6,7 +6,6 @@
     <title>My Website</title>
 </head>
 <body>
-
     <?php
     
     // String operator
@@ -134,9 +133,57 @@
     // echo $a--; // post-decrement it will echo a and then decrease the value of a by 1
     // echo $a;
 
-    ?>
 
-    <!--<main> // this is a form handler
+    // Control structures in PHP 
+    $bool = true;
+    $a = "1";
+    $b = 4;
+
+    // This is a match statement
+    // $result = match ($a) { // This is a match expression
+    //     1, 3, 5 => "Variable is equal to 1!",
+    //     2 => "Variable is equal to 2!",
+    //     default => "None were a match!",
+    // };
+
+    // echo $result;
+
+    // if ($a === 1) { // This === is a strict comparison operator whether its a string or integer
+    //     echo "the variale is equal to 1";
+    // }
+
+    // This is a switch statement
+    // switch ($a) {
+    //     case 1:
+    //     echo "the first case is correct";
+    //     break;
+    //     case 2:
+    //     echo "the second case is correct";
+    //     break;
+    //     case 3:
+    //     echo "the third case is correct";
+    //     break;
+    //     default:
+    //     echo "None of the conditions were true";
+    // }
+
+    // if ($a == 1) { 
+    //     echo "first condition is true"; 
+    // } else if ($a == 2) {
+    //     echo "second condition is true";
+    // } else if ($a == 3) {
+    //     echo "third condition is true";
+    // }
+    // This is a if else statement
+    // if ($a < $b && !$bool) { // if $a is less than $b and $bool is false
+    //     echo "first condition is true"; 
+    // } else if ($a < $b && $bool) { // if $a is less than $b and $bool is true
+    //     echo "second condition is true"; // this will be executed
+    // }
+
+    // ?>
+
+    <!-- <main> // this is a form handler
         &amp 
         <form action="formhandler.php" method="post">
             <label for="firstname">First Name?</label>
@@ -155,8 +202,8 @@
 
             <button type="submit">Submit</button>
         </form>
-    </main>
-    -->
+    </main> -->
+   
     
         <!-- <p> Hi! My name is  
     <?php
@@ -189,22 +236,10 @@
         //Object type
         //$object = new Car();
         //echo $names[1]; // Display the second element of the array
-        
+
 
     ?>, and Im' learning PHP!
     </p> 
-
-    <?php
-    
-    $bool = true;
-    $a = 1;
-    $b = 4;
-
-    if ($a < $b) {
-        echo "first condition is true";
-    }
-    
-    ?>
 
     multiple line comment in html--> 
 
