@@ -177,14 +177,14 @@
         //echo $fullName;
         
         // This is how you declare a data type in PHP
-        $string = ""; // String
-        $int = 0; // Integer
-        $float = 0; // Float
-        $bool = false; // Boolean 1 true or 0 false
+        // $string = ""; // String
+        // $int = 0; // Integer
+        // $float = 0; // Float
+        // $bool = false; // Boolean 1 true or 0 false
 
-        // This is how you declare an array in PHP
-        $names = ["Jae", "Chesca", "Tala"]; // Array type
-        $object = null;
+        // // This is how you declare an array in PHP
+        // $names = ["Jae", "Chesca", "Tala"]; // Array type
+        // $object = null;
 
         //Object type
         //$object = new Car();
