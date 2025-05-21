@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css">
+    <link rel="stylesheet" href="style.css">
     <title>My Website</title>
 </head>
 <body>
@@ -269,6 +269,73 @@
     //     }
     // }
     
+    // Arrays in PHP
+
+    //$fruits = [
+    //    "Apple", // 0
+    //    "Banana", // 1
+    //    "Mango", // 2
+    //    "Grapes" // 3
+    //];
+    
+    //unset($fruits[1]); // built-in function in php to remove the second element of the array
+    //array_splice($fruits, 0, 2); // built-in function in php to remove the first two elements of the array
+
+    //echo $fruits[1]; // Display the second element of the array
+
+    // $tasks = [ // Associative array
+    //     "Dishwashing"   => "Jae",
+    //     "Sleeping"      => "Chesca",
+    //     "Playing"       => "Tala"
+    // ];
+
+    //echo $tasks["Dishwashing"]; // Display the value of the key "Dishwashing"
+    //print_r($tasks); // Display the array in a readable format
+    //echo count($tasks); // Count the number of elements in the array
+
+    //sort($tasks); // Sort the array in ascending order
+    //print_r($tasks); // Display the sorted array
+
+    // $fruits = [
+    //    "Apple", // 0
+    //    "Banana", // 1
+    //    "Mango", // 2
+    //    "Grapes" // 3
+    // ];
+
+    // array_push($fruits, "Mango"); // Add a new element to the end of the array
+    // print_r($fruits); // Display the array in a readable format
+
+    // $tasks["Eating"] = "Muriel"; // Add a new key-value pair to the array
+    // print_r($tasks); // Display the array in a readable format
+
+    // $fruits = [
+    //     "Apple",
+    //     "Banana",
+    //     "Mango"];
+    //$test = ["Strawberry" , "Orange"];  // Array to be added
+    
+    //array_splice($fruits, 2, 0, "Grapes"); // Add "Grapes" at index 2
+    // array_splice($fruits, 2, 0, $test); // Add Strawberry and Orange at index 2
+    // print_r($fruits);
+
+    // This is a multidimensional array
+
+    // $food = [
+    //     array("Apple", "Grapes"),
+    //     "Banana",
+    //     "Mango"]
+    //     ;
+
+    //     echo $food[0][1]; // Display the second element of the first array
+
+    // $food = [
+    //     "fruits" => array("Apple","Banana","Cherry"),
+    //     "meat" => array("Chicken","Pork","Fish"),
+    //     "vegetables" => array("Cucumber","Carrot","Potato"),
+    // ];
+
+    // echo $food["vegetables"][0]; // Display the first element of the vegetables array
     ?> 
     
         <!-- <p> Hi! My name is  
