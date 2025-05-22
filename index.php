@@ -336,6 +336,54 @@
     // ];
 
     // echo $food["vegetables"][0]; // Display the first element of the vegetables array
+
+    // Built-in functions in PHP
+
+    //$string = "Hello World!"; // String
+    //$number = -5.5; // Number
+    // $array = [
+    //     "Apple",
+    //     "Banana",
+    //     "Mango"
+    // ];
+
+    // $array2 = [
+    //     "Grapes",
+    //     "Cherry",
+    //     "Strawberry"
+    // ];
+
+    //echo strlen($string); // Get the length of the string
+    //echo strpos($string, "o"); // Get the position of the first occurrence of "o" in the string
+    //echo str_replace("World!", "Daniel", $string); // Replace "World!" with "Daniel" in the string
+    //echo strtolower($string); // Convert the string to lowercase
+    //echo strtoupper($string); // Convert the string to uppercase
+    //echo substr($string, 2, -2); // Get a substring of the string starting from index 2 and length 2
+    //print_r(explode(" ", $string)); // Split the string into an array using space as a delimiter
+    
+    //echo abs($number); // Get the absolute value of the number
+    //echo round($number); // Round off the number to the nearest integer
+    //echo pow(2, 3); // Get the power of 2 to the power of 3
+    //echo sqrt(16); // Get the square root of 16
+    //echo rand(1, 100); // Get a random number between 1 and 100
+
+    //echo count($array); // Get the number of elements in the array
+    //echo is_array($array); // Check if the variable is an array
+    //echo array_push($array, "Kiwi"); // Add "Kiwi" to the end of the array
+    //echo array_push($array, "Kiwi"); // Add "Kiwi" to the end of the array
+    //print_r($array); // Display the array in a readable format
+
+    //array_pop($array); // Remove the last element of the array
+    //print_r($array); // 
+
+    //print_r(array_reverse($array)); // Reverse the array
+
+    //print_r(array_merge($array, $array2)); // Merge two arrays
+
+    //echo date("Y-m-d H:i:s");  // Get the current date and time
+    //$date = "2025-05-22 13:00:00"; // Example date
+    //echo time(); // Get the current timestamp
+    //echo strtotime($date); // Convert the date to a timestamp
     ?> 
     
         <!-- <p> Hi! My name is  
