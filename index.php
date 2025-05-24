@@ -1,3 +1,7 @@
+<?php
+declare(strict_types=1); // This is a strict type declaration 1 = true
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -469,7 +473,91 @@
     and custom environment variables */
     //$_ENV[];
     
+    // User-defined functions in PHP 
+
+    // function sayHello($name, $lastname, $pet) { // Function to say hello
+    //     return "Hello " . $name . " " . $lastname."! His Favourite pet is ".$pet; // Concatenate the string with the name
+    // }
+
+    // $test = sayHello("Daniel","Craig","Dog"); // Call the function
+    // echo $test; // Display the result of the function
+
+    // function sayHello($name = "Basse") { // default value of the parameter is Basse
+    //     return "Hello " . $name . "!";
+    // }
+
+    // $test = sayHello("Daniel"); // Call the function with the parameter
+    // echo $test;
+
+    // Type declaration in PHP
+
+    // function sayHello(string $name) { // Type declaration
+    //     return "Hello " . $name . "!"; // Concatenate the string with the name
+    // }
+
+    // $test = sayHello("123"); // Call the function with the parameter
+    // echo $test; //  Display the result of the function
     
+    // function calculator(int $num01, int $num02) {
+    //     $result = $num01 + $num02; // Add the two numbers
+    //     return $result; // Return the result
+    // }
+
+    // $test = calculator(2, 5); // Call the function with the parameters
+    // echo $test; // Display the result of the function
+
+    // $test = "Daniel";
+    // function calculator(int $num01, int $num02) {
+    //     global $test; // Use the global variable
+    //     $result = $num01 + $num02; 
+    //     return $test; // Return the result
+    // }
+
+    // $test = calculator(2, 5); 
+    // echo $test; // Display the result of the function
+
+    // Scopes in PHP
+
+    // $test = "Daniel"; // Global variable
+    
+    // function myFunction() {
+    //     global $test; // Use the global variable
+
+    //     $localVar = "Hello World!"; // Local variable
+
+    //     return $test; // Display the local variable
+    // }
+
+    // echo myFunction(); // Call the function with the parameter
+    
+    // $test = "Daniel"; // Global variable
+    // function myFunction() {
+    //     $localVar = "Hello World!"; // Local variable
+
+    //     return $GLOBALS["test"]; // Display the local variable
+    // }
+
+    // echo myFunction(); // Call the function with the parameter
+
+    // function myFunction() {
+    //     static $staticVar = 0; // Static variable
+
+    //     $staticVar++; // Increment the static variable
+
+    //     return $staticVar; // Display the static variable
+    // }
+
+    // echo myFunction(); // Call the function with the parameter
+    // echo myFunction();
+
+    // class MyClass { // Class declaration
+
+    //     public $classVar = "Hello World!"; // Static variable
+
+    //     public function myMethod() {
+    //         echo $this->classVar; // Display the class variable
+    //     }
+    // }
 
     ?>
 
