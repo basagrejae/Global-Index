@@ -559,6 +559,56 @@ declare(strict_types=1); // This is a strict type declaration 1 = true
     //     }
     // }
 
+    // Constants in PHP
+
+    // define("PI", 3.14); // Define a constant its case sensitive
+    // define("NAME", "DANIEL"); // This will not change the value of the constant
+    // define("IS_ADMIN", true); // This is a boolean constant because 1 is equal to true
+
+    // echo IS_ADMIN; // Display the variable
+
+    // function test() { // Function to display the constant
+    //     echo PI; // Display the constant
+    // }
+
+    // test(); // Call the function to display the constant
+
+    // Loops in PHP
+
+    // for loop - loops through a block of code a specified number of times
+    // $test = 5; // Variable to be used in the loop
+    // for ($i = 0; $i < $test; $i++) { // For loop
+    //     echo "This is iteration number " . $i . "<br>"; // Display the value of i after the loop ends
+    // }
+
+    // while loop - loops through a block of code as long as the specified condition is true
+    // $test = 5; // Variable to be used in the loop
+    // while ($test < 10) { // While loop
+    //     echo $test; // Display the value of test
+    //     $test++; // Increment the value of test
+    // }
+
+    // do while loop - loops through a block of code once, and then repeats the loop as long as the specified condition is true
+    // $test = 10; // Variable to be used in the loop
+    // do { 
+    //     echo $test; // Display the value of test
+    //     $test++; // Increment the value of test
+    // } while ($test < 10); // This will not execute because the condition is false
+
+    // foreach loop - loops through a block of code for each element in an array
+
+    // $fruits = array("Apple", "Banana", "Mango"); // Array to be used in the loop
+
+    // foreach ($fruits as $fruit) { // $fruit is the variable that will hold the value of each element in the array
+    //     echo "This is a " . $fruit . "<br>"; // Display the value of fruit
+    // }
+
+    // $fruits = array("Apple" => "Red", "Banana" => "Yellow", "Orange" => "Orange"); // Associative array to be used in the loop
+    
+    // foreach ($fruits as $fruit => $color) { // $fruit is the variable that will hold the value of each element in the array
+    //     echo "This is a " . $fruit . ", that has a color of " . $color . "<br>"; // Display the value of fruit and color
+    // }
+
     ?>
 
 </body>
