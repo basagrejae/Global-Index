@@ -608,6 +608,41 @@ declare(strict_types=1); // This is a strict type declaration 1 = true
     // foreach ($fruits as $fruit => $color) { // $fruit is the variable that will hold the value of each element in the array
     //     echo "This is a " . $fruit . ", that has a color of " . $color . "<br>"; // Display the value of fruit and color
     // }
+    
+
+    // Database in SQL
+    
+    // CREATE DATABASE myfirstdatabase;
+
+    // CREATE TABLE users(
+	//     id INT(11) NOT NULL AUTO_INCREMENT,
+    //     username VARCHAR(30) NOT NULL,
+    //     pwd VARCHAR(255) NOT NULL,
+    //     email VARCHAR(100) NOT NULL,
+    //     created_at DATETIME NOT NULL DEFAULT CURRENT_TIME,
+    //     PRIMARY KEY (id)
+    // );
+
+    // CREATE TABLE comments(
+	//     id INT(11) NOT NULL AUTO_INCREMENT,
+    //     username VARCHAR(30) NOT NULL,
+    //     comment_text TEXT NOT NULL,
+    //     created_at DATETIME NOT NULL DEFAULT CURRENT_TIME,
+    //     users_id INT(11) NOT NULL,
+    //     PRIMARY KEY (id),
+    //     FOREIGN KEY (users_id) REFERENCES users (id) ON DELETE NO ACTION // no action will make
+    // );
+
+    // CREATE TABLE comments(
+	//     id INT(11) NOT NULL AUTO_INCREMENT,
+    //     username VARCHAR(30) NOT NULL,
+    //     comment_text TEXT NOT NULL,
+    //     created_at DATETIME NOT NULL DEFAULT CURRENT_TIME,
+    //     users_id INT(11),
+    //     PRIMARY KEY (id),
+    //     FOREIGN KEY (users_id) REFERENCES users (id) ON DELETE SET NULL
+    // );
+    
 
     ?>
 
