@@ -643,6 +643,13 @@ declare(strict_types=1); // This is a strict type declaration 1 = true
     //     FOREIGN KEY (users_id) REFERENCES users (id) ON DELETE SET NULL
     // );
     
+    // INSERT INTO users (username, pwd, email) VALUES ('Basse','basse123','basse@gmail.com'); // insert data to SQL
+
+    // UPDATE users SET username = 'BasseIsCool', pwd = 'basse456' WHERE id = 1; // update data to SQL
+
+    // DELETE FROM users WHERE id = 1; // delete date from SQL
+
+    // INSERT INTO comments (username, comment_text, users_id) VALUES ('Krossing','This is a comment on a website', 2); // insert data to SQL with a foreign key
 
     ?>
 
