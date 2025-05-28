@@ -651,6 +651,8 @@ declare(strict_types=1); // This is a strict type declaration 1 = true
 
     // INSERT INTO comments (username, comment_text, users_id) VALUES ('Krossing','This is a comment on a website', 2); // insert data to SQL with a foreign key
 
+    // SELECT * FROM users INNER JOIN comments ON users.id = comments.users_id; // This is a inner join query
+
     ?>
 
 </body>
