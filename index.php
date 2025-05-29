@@ -12,6 +12,15 @@ declare(strict_types=1); // This is a strict type declaration 1 = true
     <title>My Website</title>
 </head>
 <body>
+
+    <h3>Sign Up</h3>
+    <form action="includes/formhandler.inc.php" method="POST">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="pwd" placeholder="Password">
+        <input type="text" name="email" placeholder="Email">
+        <button>Sign Up</button>
+    </form>
+
     <?php
     
     // String operator

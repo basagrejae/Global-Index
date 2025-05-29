@@ -1,7 +1,7 @@
 <?php 
 
 // Database connection
-$dsn = "msql:host=localhost;dbname=myfirstdatabase";
+$dsn = "mysql:host=localhost;dbname=myfirstdatabase";
 $dbUsername = "root";
 $dbPassword = "";
 
