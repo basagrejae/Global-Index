@@ -8,14 +8,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         require_once "dbh.inc.php"; // Include the database connection file
 
-        $query = "INSERT INTO users (username, pwd, email) VALUES 
-        (:username, :pwd, :email);";
+        $query = "DELETE FROM users WHERE username = :username AND pwd = :pwd;";
 
         $stmt = $pdo->prepare($query); 
 
         $stmt->bindParam(":username", $username);
         $stmt->bindParam(":pwd", $pwd);
-        $stmt->bindParam(":email", $email);
 
         $stmt->execute();
 

@@ -13,13 +13,28 @@ declare(strict_types=1); // This is a strict type declaration 1 = true
 </head>
 <body>
 
-    <h3>Sign Up</h3>
+    <!-- <h3>Sign Up</h3> // Create
     <form action="includes/formhandler.inc.php" method="POST">
         <input type="text" name="username" placeholder="Username">
         <input type="password" name="pwd" placeholder="Password">
         <input type="text" name="email" placeholder="Email">
         <button>Sign Up</button>
-    </form>
+    </form> -->
+
+    <!-- <h3>Change Account</h3> // Update
+    <form action="includes/userupdate.inc.php" method="POST">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="pwd" placeholder="Password">
+        <input type="text" name="email" placeholder="E-Mail">
+        <button>Update</button>
+    </form> -->
+
+    <!-- <h3>Delete Account</h3> // Delete
+    <form action="includes/userdelete.inc.php" method="POST">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="pwd" placeholder="Password">
+        <button>Delete</button>
+    </form> -->
 
     <?php
     
