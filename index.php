@@ -13,6 +13,16 @@ declare(strict_types=1); // This is a strict type declaration 1 = true
 </head>
 <body>
 
+    
+    <div id ="table"> 
+        <h3>Sign up</h3>
+        <form action="includes/formhandler.inc.php" method="POST">
+            <input class="txt" type="text" name="username" placeholder="Username.."> <br>
+            <input class="txt" type="password" name="pwd" placeholder="Password"> <br>
+            <input class="txt" type="text" name="email" placeholder="Email"> <br>
+            <button class="btn">Sign Up</button>
+        </form>   
+    </div>
     <!-- <h3>Sign Up</h3> // Create
     <form action="includes/formhandler.inc.php" method="POST">
         <input type="text" name="username" placeholder="Username">
