@@ -1,5 +1,11 @@
 <?php
-session_start();
+
+session_start(); // session initiate
+
+//$_SESSION["username"] = "Krossing"; // get remembered by your page
+
+
+
 ?>
 
 <!DOCTYPE html>
@@ -12,5 +18,9 @@ session_start();
     <title>Document</title>
 </head>
 <body>
+
+    <?php 
+    echo $_SESSION["username"]; // print out session username
+    ?>
 
 </body>
