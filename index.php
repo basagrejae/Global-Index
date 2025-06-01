@@ -12,9 +12,14 @@ declare(strict_types=1); // This is a strict type declaration 1 = true
     <title>My Website</title>
 </head>
 <body>
-
     
-    <div id ="table"> 
+    <form class="searchform" action="search.php" method="POST">
+        <label for="search">Search for user:</label>
+        <input id="search" type="text" name="usersearch" placeholder="Search...">
+        <button>Search</button>
+    </form>
+
+    <!-- <div id ="table"> 
         <h3>Sign up</h3>
         <form action="includes/formhandler.inc.php" method="POST">
             <input class="txt" type="text" name="username" placeholder="Username.."> <br>
@@ -22,7 +27,7 @@ declare(strict_types=1); // This is a strict type declaration 1 = true
             <input class="txt" type="text" name="email" placeholder="Email"> <br>
             <button class="btn">Sign Up</button>
         </form>   
-    </div>
+    </div> -->
     <!-- <h3>Sign Up</h3> // Create
     <form action="includes/formhandler.inc.php" method="POST">
         <input type="text" name="username" placeholder="Username">
