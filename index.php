@@ -13,11 +13,13 @@ declare(strict_types=1); // This is a strict type declaration 1 = true
 </head>
 <body>
     
-    <form class="searchform" action="search.php" method="POST">
+
+
+    <!-- <form class="searchform" action="search.php" method="POST"> // Select
         <label for="search">Search for user:</label>
         <input id="search" type="text" name="usersearch" placeholder="Search...">
         <button>Search</button>
-    </form>
+    </form> -->
 
     <!-- <div id ="table"> 
         <h3>Sign up</h3>
