@@ -1,13 +1,14 @@
 <?php
-declare(strict_types=1); // This is a strict type declaration 1 = true
-session_start(); // session initiate
+require_once 'config.php';
+//declare(strict_types=1); // This is a strict type declaration 1 = true
+//session_start(); // session initiate
 
-$_SESSION["username"] = "Krossing"; // get remembered by your page
+//$_SESSION["username"] = "Krossing"; // get remembered by your page
 //unset($_SESSION["username"]); // delete one session data
 //session_unset(); // delete all session data
 
-session_unset($_SESSION["username"]);
-session_destroy();
+//session_unset($_SESSION["username"]);
+//session_destroy();
 ?>
 
 <!DOCTYPE html>
@@ -22,7 +23,7 @@ session_destroy();
 <body>
     
     <?php 
-    echo $_SESSION["username"]; // print out session username
+    //echo $_SESSION["username"]; // print out session username
     ?>
 
 
