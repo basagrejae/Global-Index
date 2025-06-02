@@ -1,5 +1,5 @@
 <?php
-require_once 'config.php';
+//require_once 'config.php';
 //declare(strict_types=1); // This is a strict type declaration 1 = true
 //session_start(); // session initiate
 
@@ -42,13 +42,13 @@ require_once 'config.php';
             <button class="btn">Sign Up</button>
         </form>   
     </div> -->
-    <!-- <h3>Sign Up</h3> // Create
+    <h3>Sign Up</h3>
     <form action="includes/formhandler.inc.php" method="POST">
         <input type="text" name="username" placeholder="Username">
         <input type="password" name="pwd" placeholder="Password">
         <input type="text" name="email" placeholder="Email">
         <button>Sign Up</button>
-    </form> -->
+    </form>
 
     <!-- <h3>Change Account</h3> // Update
     <form action="includes/userupdate.inc.php" method="POST">
